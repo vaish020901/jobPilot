@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install bcryptjs)",
+      "Bash(npm install --save-dev @types/bcryptjs)",
+      "Bash(npm run dev)",
+      "Bash(set NODE_ENV=development)",
+      "Bash(tsx server/index.ts)",
+      "Bash(npx tsx server/index.ts)",
+      "Bash(npm run db:push)",
+      "Bash(npm install dotenv)",
+      "Bash(npx drizzle-kit push)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :5000)",
+      "Bash(taskkill /F /PID 23728)",
+      "Bash(taskkill //F //PID 23728)",
+      "Bash(taskkill //F //PID 56152)",
+      "Bash(findstr LISTENING)",
+      "Bash(taskkill //F //PID 121868)",
+      "Bash(taskkill //F //PID 112060)",
+      "Bash(timeout /t 2)",
+      "Bash(npx playwright install chromium)",
+      "Bash(npm install crypto-js)",
+      "Bash(taskkill //F //PID 106576)",
+      "Bash(timeout /t 5)",
+      "Bash(gh repo create Intelli-Apply --public --source=. --remote=origin --push)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
